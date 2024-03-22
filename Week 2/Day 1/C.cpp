@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+#define ll long long
+#define newline cout<<'\n';
+using namespace std;
+
+void solve(){
+    
+
+}
+
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int n,x;
+    cin>>n>>x;
+    vector<int> v;
+    for(int i=0;i<n;i++){
+        int a;
+        cin>>a;
+        if(a != x){
+            v.push_back(a);
+        }
+    }
+
+    for(int i=0;i<v.size();i++){
+        cout<<v[i]<<" ";
+    }
+    newline
+
+    
+    return 0;
+}
